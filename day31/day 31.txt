@@ -1,0 +1,53 @@
+Debugging adalah sebuah proses buat menghapus bug di dalam code.
+
+Debugging bisa memakan waktu lebih lama dibandingkan pas menulis program itu sendiri.
+
+
+Manfaatnya:
+
+● Error bisa terdeteksi lebih awal.
+● Proses perbaikan bisa dilakukan sedini mungkin.
+● Menghindari kesalahan desain program lebih lanjut.
+● Bisa memberikan informasi struktur data.
+● Membantu developer mengurangi informasi yang nggak berguna.
+● Mengurangi resiko hacker yang menyusup melalui celah bug atau error.
+● Developer bisa menghindari proses testing yang rumit, jadi lebih menghemat waktu dan energi saat coding.
+
+1. Mereproduksi Bug
+Hal pertama yang harus kamu lakukan adalah mereproduksi bug. 
+Caranya, mendokumentasikan semua issue bug yang ada dengan benar.
+
+2. Mengidentifikasi Error
+Selanjutnya, lakukan identifikasi error, yaitu dengan mengumpulkan laporan error atau kesalahan pada program.
+Contohnya pas perintah software gagaldieksekusi, maka kemungkinan ada syntax bug pada skrip.
+
+3. Menemukan Lokasi Bug
+Pas udah mengidentifikasi, saatnya menemukan di mana letak error di code tersebut berada, gengs.
+Misalnya, di code navigasi, tombol perintah, dll. Udah kayak main petak umpet aja, yaa
+
+4. Menganalisis Error
+Oke, udah tahu ada bug dan di mana lokasinya, maka mari analisis error tersebut, supaya nantinya bisa dilakukan perbaikan yang tepat.
+Ada tips jitu nih gengs, yaitu pakai teknik bottom-up atau analisis dari kode paling kecil di lokasi error hingga ke kesatuan kode disekitarnya.
+Tujuannya, supaya kamu tahu bug-bug lain yang ada di sekitar kode error dan bisa meminimalisir resiko error tambahan pada saat perbaikan.
+
+5. Membuktikan Analisis Error
+Hasil analisis bug kamu mungkin bakal menemukan adanya bug di lokasi tertentu.
+Sebelum memperbaikinya, kamu perlu membuktikan kalau nggak ada error lainnya yang mungkin aja bakal muncul pada software.
+
+6. Lakukan Pada Semua Error
+Pembuktian analisis error tersebut harus kamu buktikan di semua error yang berhasil kamu temukan.
+Pokoknya semua harus disamaratakan ya, gengs!
+
+7. Memperbaiki dan Validasi Skrip
+Udah punya kode perbaikan? Inilah saat yang ditunggu-tunggu! Masukkan semua kode yang udah kamu perbaiki dan udah lolos uji coba ke dalam framework.
+Selalu lakukan double checking, ya!
+Uji coba lagi semua skrip dan pastikan program berjalan dengan yang diharapkan.
+
+Kali ini, kita bahas cara yang lebih modern buat monitor error di production, yuk!
+
+Cara modern-nya, yaitu menggunakan layanan Sentry.io.
+“Apa itu Sentry.io?”
+Sentry.io adalah sebuah layanan monitoring aplikasi online yang membantu developer buat mendiagnosis error, memperbaiki error, dan optimasi performa sistem, sob.
+
+
+
