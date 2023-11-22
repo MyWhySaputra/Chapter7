@@ -5,3 +5,50 @@ Coba kita analogikan WebSocket ini kayak pas lagi teleponan, yuk
 Kalau kita lagi komunikasi lewat telepon, pasti ada 2 orang, kan?
 
 Yang satu namanya Client atau si penelepon dan yang satunya lagi adalah Server alias si penerima telepon. 
+
+WebSocket adalah standar baru buat komunikasi realtime di Web dan aplikasi mobile.
+
+WebSocket ini dirancang buat diterapkan di browser web dan server web.
+
+Nggak cuma itu aja, WebSocket juga bisa dipakai sama aplikasi client atau server, lho.
+
+WebSocket menghadirkan pengurangan besar dalam lalu-lintas jaringan yang nggak penting dan latency dibandingkan dengan solusi polling dan long-polling yang udah dipakai buat mensimulasikan koneksi dua arah dengan cara menjaga dua koneksi tetap terhubung.
+
+Kenapa WebSocket diciptakan ?
+
+Karena banyak permintaan dari beberapa client yang mengharuskan developer bisa bikin aplikasi berbasis web secara real time atau real-time apps, sob
+
+Emangnya cuma bisa pakai WebSocket aja, ya?
+
+Ada alternatif lain buat permasalahan developer tersebut, misalnya metode polling dan long polling.
+
+Metode polling ini yang mengirimkan request data ke server secara terus menerus.
+
+Berikut adalah perbandingan protokol HTTP dengan WebSocket
+● Kalau pakai HTTP, client cuma bisa mengirim request dan server mengirim balik response ke client.
+● Kalau pakai WebSocket, pas koneksi antara client dan server terhubung, maka kedua pihak bisa saling mengirim data tanpa membuka koneksi baru sampai koneksi tersebut putus.
+
+Kira-kira apa ya kelebihannya WebSocket dibanding HTTP ?
+
+1. Koneksi 2 arah secara asynchronous, baik client maupun server bisa mengirim pesan ke masing-masing tujuan secara langsung tanpa pihak yang menerima data harus request terlebih dahulu.
+2. Latency time yang rendah banget.
+3. Stream data secara real-time.
+
+Kamu tahu nggak kalau Node Js secara default bisa meng-handle WebSocket lebih mudah dibanding bahasa pemrograman lainnya?
+
+Tapi, ternyata ada lagi nih paket yang memudahkan kita buat pakai WebSocket, yaitu Socket IO.
+
+Socket IO adalah real-time engine open source yang dibangun di atas Node Js, gengs.
+
+Socket IO terdiri dari 2 bagian lho, gengs
+Berikut adalah 2 bagian dari Socket.io:
+1. Server, yaitu Backend web.
+2. Client, yaitu Frontend web, Mobile, dll.
+
+Baik server maupun client punya fungsi utama dan API yang mirip-mirip, lho!
+Fungsi utama dan API-nya adalah sebagai berikut:
+1. Event emitter, bisa dianalogikan kayak orang yang lagi berbicara tentang suatu hal atau mengirim data dengan topik tertentu.
+2. Event listener, bisa dianalogikan sebagai pendengar atau penerima pesan dari suatu topik. Jadi, antara client sama server bisa menerima pesan dari kedua pihak.
+3. Broadcast, merupakan fitur buat mengirim data atau pesan kayak event emitter. Bedanya, broadcast mengirim ke semua alamat socket yang aktif kecuali pengirimnya sendiri.
+
+
