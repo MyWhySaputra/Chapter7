@@ -1,0 +1,7 @@
+WebSocket
+
+Coba kita analogikan WebSocket ini kayak pas lagi teleponan, yuk
+
+Kalau kita lagi komunikasi lewat telepon, pasti ada 2 orang, kan?
+
+Yang satu namanya Client atau si penelepon dan yang satunya lagi adalah Server alias si penerima telepon. 
